@@ -24,7 +24,7 @@
     <!-- Modify code here -->
     <div v-bind:class="container">
         <div v-bind:id="id" class="m-2" :class="{'blueBox': blueBox, 'redBox': !blueBox}">
-            div ID : {{id}} 
+            div ID : {{ id }} 
         </div>
         
         <button  :class="{'btn btn-primary': blueBtn, 'btn btn-danger': !blueBtn}" type="button"
